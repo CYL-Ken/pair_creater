@@ -1,0 +1,32 @@
+{
+    "d0:14:11:b0:11:c8": {
+        "cmd": ["receive-switch-on", "receive-switch-off", "test"],
+        "channels": {
+            "Input":{
+                "1": [],
+                "2": [],
+                "3": []
+            },
+            "Output":{
+                "4": [],
+                "5": [],
+                "6": []
+            }
+            
+        }
+    },
+    "d0:14:11:b0:11:e6": {
+        "channels": {
+            "Input": [1,2,3,7,8,9],
+            "Output": [4,5,6,10,11,12]
+        },
+        "cmd": ["receive-switch-off", "test"]
+    },
+    "d0:14:11:b0:ff:ff": {
+        "channels": {
+            "Input": [1,2,3,7,8,9,13,14,15],
+            "Output": [4,5,6,10,11,12,16,17,18]
+        },
+        "cmd": ["receive-switch-on"]
+    }
+}
